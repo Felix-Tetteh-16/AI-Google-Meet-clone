@@ -1,0 +1,236 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Product Sans Medium', sans-serif;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+} */
+
+.main-body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-size: 2rem;
+
+
+}
+
+main {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    flex: 3;
+    padding: 10px;
+    /* position: relative; */
+}
+
+.video-box-one {
+    background-color: #ecf0f1;
+    background-image: url("./Img/img/man1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #bdc3c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+}
+
+.box-one-content{
+    width: fit-content;
+    height: auto;
+    background-color: #2c3e50;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.box-two-content {
+    width: fit-content;
+    height: auto;
+    background-color: #2c3e50;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.box-three-content {
+    width: fit-content;
+    height: auto;
+    background-color: #2c3e50;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.box-four-content {
+    width: fit-content;
+    height: auto;
+    background-color: #2c3e50;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.video-box-two {
+    background-color: #ecf0f1;
+    background-image: url("./Img/img/woman\ 2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #bdc3c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+}
+
+.video-box-three {
+    background-color: #ecf0f1;
+    background-image: url("./Img/img/man\ 5.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #bdc3c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+}
+
+.video-box-four {
+    background-color: #ecf0f1;
+    background-image: url("./Img/img/Nft\ 2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #bdc3c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+}
+
+.chat-sidebar {
+    flex: 1;
+    background-color: #f4f4f4;
+    border-left: 1px solid #bdc3c7;
+    padding: 10px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+
+.mute-icon{
+    width: fit-content;
+    height: auto;
+    background-color: #2c3e50;
+    padding: 0.4rem;
+    border-radius: 100000rem;
+    border: 1px solid white;
+}
+
+.mute-icon:hover{
+    color: #bdc3c7;
+}
+
+.camera-icon{
+    width: fit-content;
+    height: auto;
+    background-color: #2c3e50;
+    padding: 0.4rem;
+    border-radius: 100000rem;
+    border: 1px solid white;
+}
+
+.camera-icon:hover {
+    color: #bdc3c7;
+}
+
+.end-call-icon{
+    width: fit-content;
+    height: auto;
+    background-color: #2c3e50;
+    padding: 0.4rem;
+    border-radius: 100000rem;
+    border: 1px solid white;
+}
+
+.end-call-icon:hover {
+    color: #bdc3c7;
+}
+
+p{
+    color: white;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
